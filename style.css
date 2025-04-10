@@ -1,0 +1,499 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  padding: 1rem;
+  background-color: rgb(243, 206, 137);
+}
+
+main {
+  width: 100%;
+  border: 1px solid black;
+  padding: 1.2rem;
+}
+main .line {
+  height: 1px;
+  background-color: black;
+}
+main nav {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 1rem;
+  width: 100%;
+}
+main nav .nav-left {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+main nav .nav-left img {
+  width: 2.7rem;
+}
+main nav .nav-left h1 {
+  font-family: sans-serif;
+  font-weight: 500;
+  font-size: 1.3rem;
+}
+main nav .nav-right {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+main nav .nav-right img {
+  width: 1rem;
+}
+main nav .nav-right .dark-mode {
+  border: 1px solid black;
+  display: flex;
+  padding: 0.5rem 1.2rem;
+  border-radius: 2rem;
+  justify-content: flex-start;
+}
+main nav .nav-right .menu {
+  width: 1.8rem;
+  display: block;
+}
+main nav .nav-right .nav-links {
+  display: none;
+}
+main .view-1 {
+  padding: 2rem 0 2rem 0;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 1rem;
+}
+main .view-1 p {
+  font-family: "Roboto Mono";
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+main .view-1 h1 {
+  font-family: "Syne";
+  font-size: 3.2rem;
+}
+main .view-1 .image-container {
+  width: 100%;
+  aspect-ratio: 2/1;
+}
+main .view-1 .image-container img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 1rem;
+}
+main .view-2 {
+  width: 100%;
+  padding: 1rem 0 1rem 0;
+  display: flex;
+  flex-direction: column;
+}
+main .view-2 .top {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding-bottom: 1rem;
+}
+main .view-2 .top p {
+  font-family: "Roboto Mono";
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+main .view-2 .top h1 {
+  font-family: "Syne";
+  font-size: 2.9rem;
+  font-weight: 500;
+}
+main .view-2 .top button {
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-top: 0.5rem;
+  padding: 0.7rem 1rem 0.7rem 1rem;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  background-color: black;
+  color: white;
+  border: none;
+  outline: none;
+  letter-spacing: 1.5px;
+  border-radius: 0.5rem;
+  font-family: "Roboto Mono";
+}
+main .view-2 .bottom {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding-top: 1rem;
+}
+main .view-2 .bottom .service {
+  border-bottom: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+  padding: 1.5rem 0rem 1.5rem 0rem;
+}
+main .view-2 .bottom .service h2 {
+  font-family: "Syne";
+  font-weight: 400;
+  font-size: 2.5rem;
+  letter-spacing: 1px;
+}
+main .view-2 .bottom .service p {
+  font-family: sans-serif;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  font-weight: 300;
+  color: rgb(25, 25, 25);
+}
+main .view-2 .bottom img {
+  width: 4rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main .view-3 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+main .view-3 .our-team {
+  padding: 1rem 0 2rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+main .view-3 .our-team h1 {
+  font-family: "Syne";
+  font-size: 2.6rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+main .view-3 .our-team p {
+  font-family: sans-serif;
+  font-size: 1.2rem;
+  color: rgb(25, 25, 25);
+  letter-spacing: 1px;
+}
+main .view-3 .video-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 2rem 0 2rem 0;
+}
+main .view-3 .video-container .video {
+  width: 100%;
+}
+main .view-3 .video-container .video video {
+  width: 100%;
+  border-radius: 1rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main .view-3 .video-container .video h2 {
+  font-family: "Syne";
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+}
+main .view-3 .video-container .video p {
+  font-family: "Roboto Mono";
+  margin-top: 0.3rem;
+  font-size: 0.8rem;
+}
+main .view-4 {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+main .view-4 .left {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+main .view-4 .left img {
+  width: 4rem;
+}
+main .view-4 .left p {
+  margin-top: 1rem;
+  font-family: "Roboto Mono";
+  font-weight: 400;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+}
+main .view-4 .left h2 {
+  font-family: "Syne";
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+main .view-4 .right {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+main .view-4 .right p {
+  font-family: sans-serif;
+  font-size: 1.2rem;
+  letter-spacing: 1.5px;
+  font-weight: 100;
+  color: rgb(25, 25, 25);
+}
+main .view-4 .right button {
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-top: 0.5rem;
+  padding: 0.7rem 1rem 0.7rem 1rem;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  background-color: black;
+  color: white;
+  border: none;
+  outline: none;
+  letter-spacing: 1.5px;
+  border-radius: 0.5rem;
+  font-family: "Roboto Mono";
+}
+main footer {
+  padding: 1rem 0 1rem 0;
+  display: flex;
+  flex-direction: column;
+}
+main footer .footer-content {
+  border-bottom: 1px solid black;
+  padding: 2rem 0 2rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+main footer .footer-content .fylla {
+  width: 3rem;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+main footer .footer-content .fylla p {
+  font-size: 1.5rem;
+  font-family: "Syne";
+}
+main footer .footer-content .address {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+main footer .footer-content .address p {
+  font-family: sans-serif;
+  font-size: 0.9rem;
+  gap: 1px;
+  font-weight: 100;
+}
+main footer .footer-content .round {
+  margin-top: 3rem;
+  display: flex;
+  gap: 1rem;
+}
+main footer .footer-content .round p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+  height: 2rem;
+  border: 1px solid black;
+  border-radius: 50%;
+  font-family: "Roboto Mono";
+  font-size: 0.9rem;
+}
+main footer .footer-content a {
+  text-decoration: none;
+  font-family: "Roboto Mono";
+  color: rgb(25, 25, 25);
+  text-transform: uppercase;
+}
+main footer .footer-content h3 {
+  font-family: "Syne";
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+}
+main footer .footer-content button {
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-top: 0.5rem;
+  padding: 0.7rem 1rem 0.7rem 1rem;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  background-color: black;
+  color: white;
+  border: none;
+  outline: none;
+  letter-spacing: 1.5px;
+  border-radius: 0.5rem;
+  font-family: "Roboto Mono";
+}
+main .footer-template {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  font-family: "Roboto Mono";
+  gap: 1rem;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+main .footer-template .left {
+  display: flex;
+  gap: 0.5rem;
+}
+main .footer-template .left span {
+  border-bottom: 1px solid black;
+}
+main .footer-template .right {
+  display: flex;
+  gap: 2rem;
+}
+
+@media (min-width: 1020px) {
+  main {
+    padding: 2rem 3rem 2rem 3rem;
+  }
+  main nav .nav-right .menu {
+    width: 1.8rem;
+    display: none;
+  }
+  main nav .nav-right .nav-links {
+    display: flex;
+    gap: 3rem;
+    margin-right: 5rem;
+    align-items: center;
+  }
+  main nav .nav-right .nav-links a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Roboto Mono";
+    color: rgb(25, 25, 25);
+    font-size: 1rem;
+    transition: all linear 0.5s;
+  }
+  main nav .nav-right .nav-links a:hover {
+    border-bottom: 1.5px solid black;
+  }
+  main nav .nav-right .nav-links button {
+    width: -moz-fit-content;
+    width: fit-content;
+    padding: 0.7rem 1rem 0.7rem 1rem;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    background-color: black;
+    color: white;
+    border: none;
+    outline: none;
+    letter-spacing: 1.5px;
+    border-radius: 0.5rem;
+    font-family: "Roboto Mono";
+    cursor: pointer;
+  }
+  main .view-1 {
+    padding: 3rem 0 3rem 0;
+  }
+  main .view-1 h1 {
+    font-size: 6rem;
+  }
+  main .view-2 {
+    flex-direction: row;
+    padding: 2rem 0 2rem 0;
+  }
+  main .view-2 .top {
+    width: 70%;
+  }
+  main .view-2 .top h1 {
+    font-size: 4.5rem;
+  }
+  main .view-2 .top button {
+    margin-top: auto;
+  }
+  main .view-2 .bottom {
+    width: 30%;
+  }
+  main .view-3 {
+    flex-direction: row;
+    padding: 2rem 0 2rem 0;
+    position: relative;
+  }
+  main .view-3 .our-team {
+    width: 40%;
+    position: sticky;
+    top: 0;
+  }
+  main .view-3 .our-team h1 {
+    font-size: 4rem;
+  }
+  main .view-3 .our-team p {
+    font-size: 1.2rem;
+    font-family: sans-serif;
+  }
+  main .view-3 .video-container {
+    width: 60%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  main .view-3 .video-container .video h2 {
+    font-size: 1.5rem;
+    margin-top: 0.8rem;
+  }
+  main .view-3 .video-container .video p {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+  }
+  main .view-4 {
+    flex-direction: row;
+    padding: 1rem 0 1rem 0;
+  }
+  main .view-4 .right {
+    width: 30%;
+  }
+  main .view-4 .right p {
+    font-size: 1.5rem;
+  }
+  main .view-4 .right button {
+    margin-top: auto;
+  }
+  main .view-4 .left {
+    width: 70%;
+    flex-direction: column-reverse;
+    gap: 10rem;
+  }
+  main .view-4 .left img {
+    margin-top: auto;
+  }
+  main .view-4 .left h2 {
+    font-size: 5rem;
+  }
+  main footer {
+    width: 100%;
+    padding: 7rem 0 3rem 0;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+  }
+  main footer .footer-content {
+    flex: 1;
+  }
+  main footer .footer-content button {
+    margin-top: 1.5rem;
+  }
+  main footer .content-1 {
+    flex: 2;
+  }
+  main .footer-template {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}/*# sourceMappingURL=style.css.map */
