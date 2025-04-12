@@ -1,4 +1,5 @@
 * {
+  
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -6,6 +7,7 @@
 
 html,
 body {
+  scroll-behavior: smooth;
   width: 100%;
   height: 100%;
 }
@@ -469,21 +471,33 @@ main {
     .view-2 {
       flex-direction: row;
       padding: 2rem 0 2rem 0;
+      justify-content: space-between;
+      
 
       .top {
         width: 70%;
+        align-self: flex-start;
+        
 
         h1 {
           font-size: 4.5rem;
+          width: 80%;
+          
         }
 
         button {
-          margin-top: auto;
+          margin-top: 3rem;
+          
         }
       }
 
       .bottom {
         width: 30%;
+
+        .service{
+          padding: 3rem 0 3rem 0;
+        }
+        
       }
     }
 
@@ -494,8 +508,6 @@ main {
 
       .our-team {
         width: 40%;
-        position: sticky;
-        top: 0;
 
         h1 {
           font-size: 4rem;
@@ -533,7 +545,9 @@ main {
         width: 30%;
 
         p {
-          font-size: 1.5rem;
+          font-size: 1.8rem;
+          margin-top: 2rem;
+
         }
 
         button {
@@ -552,6 +566,7 @@ main {
 
         h2 {
           font-size: 5rem;
+          width: 90%;
         }
       }
     }
